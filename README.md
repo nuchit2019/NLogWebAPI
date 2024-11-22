@@ -9,7 +9,7 @@ https://github.com/nuchit2019/NLogWebAPI/blob/main/NLogWebAPI/nlog.config_README
 https://github.com/nuchit2019/NLogWebAPI/blob/main/NLogWebAPI/LogTarget/LogAnalyticsTarget_README.md
 ##
 
-## 3. TniLoggerService Class
+## 3. LoggerService Class
  https://github.com/nuchit2019/NLogWebAPI/blob/main/NLogWebAPI/Services/TniLoggerService_README.md
 
 ## Log Analytics workspace
