@@ -1,0 +1,10 @@
+@NLogWebAPI_HostAddress = http://localhost:7165
+
+GET {{NLogWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+### Send Log to Azure
+GET {{NLogWebAPI_HostAddress}}/api/NLog/SendLogToAzure
+Accept: */*
+ 
+ 
