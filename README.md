@@ -1,6 +1,9 @@
 # NLogWebAPI
 WebAPI Send Logs to Azure Log Analytics
 
+## 1.NLog Configuration
+##
+
 ### NLog Configuration (`nlog.config`)
 
 This configuration file is used to set up NLog targets and rules for logging in an application. The logging is directed to multiple outputs, including Azure Log Analytics, the console, and local log files. Below is a breakdown of the configuration:
@@ -130,6 +133,10 @@ This configuration file is used to set up NLog targets and rules for logging in 
 - Internal logging for NLog itself is enabled for debugging purposes.
 - Logs are archived when file sizes exceed a specified threshold to manage log file growth.
 
+
+## 2. LogAnalyticsTarget Class
+##
+
 ### LogAnalyticsTarget Class
 
 ##
@@ -163,6 +170,9 @@ dotnet add package LogAnalytics.Client
 To use the `LogAnalyticsTarget`, configure it in your NLog configuration file, providing the necessary `CustomerId`, `SharedKey`, and `LogType`. Log entries containing `LogEntities` will be sent asynchronously to Azure Log Analytics.
 
 
+
+## 3. TniLoggerService Class
+##
 
 # TniLoggerService Class
 
